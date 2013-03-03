@@ -649,6 +649,12 @@
     
 }
 
+- (CGPoint)centerPoint {
+    
+	b2Vec2 vec = _body->GetWorldCenter();
+    return CGPointMake(vec.x, vec.y);
+}
+
 
 // N.B. when initialising this class with super methods - in order to get the setPosition to catch - you must overide these methods
 /*+(id)spriteWithTexture:(CCTexture2D*)texture
