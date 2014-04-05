@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
     s.ios.source_files = 'CCBox2D/*.{h,m,mm,cpp}'
     s.osx.source_files = 'CCBox2D/*.{h,m,mm,cpp}'
         
-	s.dependency 'cocos2d'', '2.1'
+	s.dependency 'cocos2d', '2.1'
 	s.dependency 'box2d'
 end
