@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     }
     s.author = {'axcho' => 'axcho@axcho.com/'}
     s.source = { 
-      :git => 'git://github.com/jdp-global/CCBox2D.git',:commit => '9fc87365666d164302e6cce348726cb69b86c0bf' 
+      :git => 'git://github.com/jdp-global/CCBox2D.git',:commit => '1b4d3eb240f544156c6667a48c6382a88200adb3' 
     }
     s.platform = :ios, '5.0'
     s.framework = 'Foundation', 'OpenGLES'
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
     s.ios.source_files = 'CCBox2D/*.{h,m,mm,cpp}'
     s.osx.source_files = 'CCBox2D/*.{h,m,mm,cpp}'
         
-	s.dependency 'cocos2d'
+	s.dependency 'cocos2d'', '2.1'
 	s.dependency 'box2d'
 end
